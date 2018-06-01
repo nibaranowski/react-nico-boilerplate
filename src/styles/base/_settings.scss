@@ -1,14 +1,23 @@
 // Colors
 $off-black: #20222b;
 $dark-grey: #333333;
-$grey: #666;
+ // $grey: #cccc93; //#6b7c93;
+ // $main-blue: #d5745f; //#4b74ff;
+$grey: #6b7c93;
+$main-blue: #4b74ff;
+$main-blue-off: #4a73ff;
+$light-blue: #4a73ff;
+$main-green: #39cd90;
 $blue:  #1c88bf;
 $dark-blue: #364051;
 $off-white: #f7f7f7;
 
 // Font size
-$font-size-large: 1.8rem;
-$font-size-small: 1.4rem;
+
+$xlarge-font: 1.6rem; //16px
+$large-font: 1.2rem; //12px
+$medium-font: 0.8rem; //8px
+$small-font: 0.6rem; //6px
 
 // Spacing
 $s-size: 1.2rem;

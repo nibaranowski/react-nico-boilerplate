@@ -7,9 +7,9 @@ import configureStore from './store/configureStore'
 import { login, logout } from './actions/auth';
 import 'react-dates/lib/css/_datepicker.css';
 import 'normalize.css/normalize.css';
-import './styles/styles.scss'; 
+import './styles/styles.scss';
 import { firebase } from './firebase/firebase';
-import LoadingPage from './components/LoadingPage';
+import LoadingPage from './components/pages/LoadingPage';
 
 const store = configureStore();
 
@@ -36,7 +36,7 @@ firebase.auth().onAuthStateChanged((user) => {
         store.dispatch(login(user.uid));
         renderApp();
         if (history.location.pathname === '/') {
-            history.push('/dashboard');
+            history.push('/');
         }
     } else {
         store.dispatch(logout());

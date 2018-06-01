@@ -1,13 +1,13 @@
 .text-input {
     border: 1px solid #cacccd;
     height: 50px;
-    font-size: $font-size-large;
+    font-size: $large-font;
     font-weight: 300;
     padding: $s-size;
 }
 
 .select {
-    @extend .text-input;   
+    @extend .text-input;
 }
 
 .textarea {
