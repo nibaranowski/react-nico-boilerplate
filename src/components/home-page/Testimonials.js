@@ -1,35 +1,37 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import Testimonial from './Testimonial';
 
 export const Testimonials = () => (
-    <header className="testimonials">
+    <div className="testimonials">
         <div className="content-container">
             <div className="testimonials__title">
                 <h1>Find what our customers say.</h1>
             </div>
             <div className="testimonials__content">
-                <div className="testimonials__content__card">
-                    <img src="/images/person1.png" />
-                    <h3>Jean-Michel Hermange</h3>
-                    <h4>COO, BNP Cardif Belgium </h4>
-                    <blockquote className="testimonials__content__card__quote">      Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today .</blockquote>
-                </div>
-                <div className="testimonials__content__card">
-                    <img src="/images/person1.png" />
-                    <h3>Benoit Gailly</h3>
-                    <h4>Prof., Louvain Business School </h4>
-                    <blockquote className="testimonials__content__card__quote">      Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today .</blockquote>
-                </div>
-                <div className="testimonials__content__card">
-                    <img src="/images/person1.png" />
-                    <h3>Damien Jacquinet</h3>
-                    <h4>Founder, Impacteo </h4>
-                    <blockquote className="testimonials__content__card__quote">      Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today .</blockquote>
-                </div>
+
+                <Testimonial
+                    image="person1.jpg"
+                    fullName="Jean-Michel Hermange"
+                    jobTitle="COO, BNP Cardif Belgium"
+                    quote=" Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today ."
+                />
+                <Testimonial
+                    image="person2.jpg"
+                    fullName="Benoit Gailly"
+                    jobTitle="prof., Louvain Business School"
+                    quote=" Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today ."
+                />
+                <Testimonial
+                    image="person3.jpg"
+                    fullName="Damien Jacquinet"
+                    jobTitle="Founder, impacteo"
+                    quote=" Create things so easy beautiful, professional things so easy, you cit today.  professional things so easy, you cit today ."
+                />
             </div>
         </div>
-    </header>
+    </div>
 );
 
 const mapDispatchToProps = () => ({

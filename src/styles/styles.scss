@@ -1,18 +1,37 @@
 @import './base/settings';
 @import './base/base';
-@import './components/box-layout';
-@import './components/buttons';
-@import './components/content-container';
-@import './components/customers';
-@import './components/details';
-@import './components/form';
-@import './components/footer';
-@import './components/header';
-@import './components/input-group';
-@import './components/inputs';
-@import './components/list';
-@import './components/main';
-@import './components/loader';
-@import './components/testimonials';
-@import './components/page-header';
-@import './components/visibility';
+
+@import './components/general/box-layout';
+@import './components/general/buttons';
+@import './components/general/content-container';
+@import './components/general/form';
+@import './components/general/input-group';
+@import './components/general/inputs';
+@import './components/general/list';
+@import './components/general/loader';
+@import './components/general/page-header';
+@import './components/general/visibility';
+@import './components/general/header';
+@import './components/general/footer';
+
+@import './components/home-page/customers';
+@import './components/home-page/details';
+@import './components/home-page/main';
+@import './components/home-page/mainB';
+@import './components/home-page/testimonials';
+@import './components/home-page/testimonial';
+@import './components/home-page/style-link';
+
+@import './components/work-page/main-workspace';
+@import './components/work-page/project-tile';
+@import './components/work-page/tile';
+
+@import './components/about-page/main-about';
+@import './components/about-page/methods';
+@import './components/about-page/method';
+@import './components/about-page/happy-client';
+@import './components/about-page/customer-grid';
+@import './components/about-page/patch-work';
+@import './components/about-page/offices';
+@import './components/about-page/office';
+@import './components/about-page/say-hi';

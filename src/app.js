@@ -35,12 +35,12 @@ firebase.auth().onAuthStateChanged((user) => {
     if (user) {
         store.dispatch(login(user.uid));
         renderApp();
-        if (history.location.pathname === '/') {
-            history.push('/');
+        if (history.location.pathname === '/about') {
+            history.push('/about');
         }
     } else {
         store.dispatch(logout());
         renderApp();
-        history.push('/');
+        history.push('/about');
     }
 });

@@ -12,6 +12,9 @@ $blue:  #1c88bf;
 $dark-blue: #364051;
 $off-white: #f7f7f7;
 
+$light-yellow: #fef597;
+$light-green: #bdd4cc;
+
 // Font size
 
 $xlarge-font: 1.6rem; //16px
@@ -19,9 +22,19 @@ $large-font: 1.2rem; //12px
 $medium-font: 0.8rem; //8px
 $small-font: 0.6rem; //6px
 
+
+$title-font: $xlarge-font*2;
+$small-title-font: $xlarge-font*2*1.6;
+$paragraph-font: $medium-font*2;
+$small-paragraph-font: $small-font*2.2;
+$link-font: $medium-font*1.2;
+
 // Spacing
 $s-size: 1.2rem;
 $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
 $desktop-breakpoint: 45rem;
+
+$big-padding-left: 8.1rem;
+$small-padding-left-mobile: 1.6rem;

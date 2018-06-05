@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 export const Customers = () => (
-    <header className="customers">
+    <div className="customers">
         <div className="content-container">
             <div className="button-container">
                 <a className="blue-button" href="/work"><span>Our Clients</span></a>
@@ -35,7 +35,7 @@ export const Customers = () => (
                 </div>
             </div>
         </div>
-    </header>
+    </div>
 );
 
 const mapDispatchToProps = () => ({
